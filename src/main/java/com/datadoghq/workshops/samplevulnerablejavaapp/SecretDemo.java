@@ -44,12 +44,14 @@ public class SecretDemo {
         // Hard-coded secret placeholder
         String hardCodedApiKey = "<HARD_CODED_SECRET>"; // <-- placeholder only!
 
-        String password = "test@1234"; // <-- placeholder only!
+        String password = "test@1234sdfasf"; // <-- placeholder only!
 
         String apiKey = "sec1-test1234ugugugiugtiutuytuyfuyhfghjfjhgjhgjhghjghjkhjkhjkhkjy"; // <-- placeholder only!
 
         // Insecure: logging the secret directly (for demonstration only)
         System.out.println("Insecure log: using API key = " + hardCodedApiKey);
+        System.out.println("Insecure log: using API key = " + apiKey);
+         System.out.println("Insecure log: using password = " + password);
 
         // Simulate using the secret
         boolean ok = callExternalServiceWithKey(hardCodedApiKey);
