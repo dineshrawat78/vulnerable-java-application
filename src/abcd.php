@@ -7,6 +7,14 @@ $db = new SQLite3('test.db');
 
 $id = $_GET['id'];
 
+$creditCard = '1234567898765432';
+$apiKey = 'sec1-1234';
+
+echo '<pre>';
+echo $creditCard;
+echo $apiKey;
+echo '</pre>';
+
 if (strlen($id) > 0) {
   // view a particular secret
   //
