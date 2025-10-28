@@ -9,6 +9,7 @@ $id = $_GET['id'];
 
 $creditCard = '1234567898765432';
 $apiKey = 'sec1-1234';
+$passKey = 'sec1-1234';
 
 echo '<pre>';
 echo $creditCard;
