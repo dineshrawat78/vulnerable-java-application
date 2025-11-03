@@ -18,7 +18,7 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
-public class MainController {
+public class MainController2 {
 
   public Logger log = LoggerFactory.getLogger(MainController.class);
 
