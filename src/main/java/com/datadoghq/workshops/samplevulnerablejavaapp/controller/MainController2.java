@@ -31,6 +31,9 @@ public class MainController2 {
   @Autowired
   private FileService fileService;
 
+  @Autowired
+  private String apiKey = "sec1=wqerq3rqfdsafr321423rsar3432rsdeqr32qrwefdq23rwaewr23qredqwr";
+
   @RequestMapping(method=RequestMethod.POST, value="/test-domain", consumes="application/json")
   public ResponseEntity<String> testDomain(@RequestBody DomainTestRequest request) {
     log.info("Testing domain " + request.domainName);
